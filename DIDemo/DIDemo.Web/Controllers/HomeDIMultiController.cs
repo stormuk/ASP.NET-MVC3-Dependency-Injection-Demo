@@ -7,11 +7,11 @@ using DIDemo.Core;
 
 namespace DIDemo.Web.Controllers
 {
-    public class HomeDIController : Controller
+    public class HomeDIMultiController : Controller
     {
-        private IMessagingService messageSvc;
+        private IMessagingService[] messageSvc;
 
-        public HomeDIController(IMessagingService msg)
+        public HomeDIMultiController(IMessagingService[] msg)
         {
             this.messageSvc = msg;
         }
@@ -24,9 +24,12 @@ namespace DIDemo.Web.Controllers
 
         public ActionResult SendMessage(string message)
         {
-            this.messageSvc.Send(message);
+            foreach(var svc in this.messageSvc)
+            {
+                Response.Write("SENT WITH: " + svc.GetType() + "<br />");
+                svc.Send(message);
+            }
 
-            Response.Write("SENT WITH: " + this.messageSvc.GetType());
             Response.End();
 
             return RedirectToAction("Index");

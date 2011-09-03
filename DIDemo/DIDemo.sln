@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIDemo.Web", "DIDemo.Web\DIDemo.Web.csproj", "{158D37A8-293C-4054-9BF4-71CDCBF435D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIDemo.Core", "DIDemo.Core\DIDemo.Core.csproj", "{98339BD3-A5A1-4802-8E0B-0BB2BDEC4822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIDemo.Data", "DIDemo.Data\DIDemo.Data.csproj", "{3A47D8F4-5357-4FF1-8B72-87E439B2C5D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{158D37A8-293C-4054-9BF4-71CDCBF435D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{158D37A8-293C-4054-9BF4-71CDCBF435D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{158D37A8-293C-4054-9BF4-71CDCBF435D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98339BD3-A5A1-4802-8E0B-0BB2BDEC4822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98339BD3-A5A1-4802-8E0B-0BB2BDEC4822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98339BD3-A5A1-4802-8E0B-0BB2BDEC4822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98339BD3-A5A1-4802-8E0B-0BB2BDEC4822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A47D8F4-5357-4FF1-8B72-87E439B2C5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A47D8F4-5357-4FF1-8B72-87E439B2C5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A47D8F4-5357-4FF1-8B72-87E439B2C5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A47D8F4-5357-4FF1-8B72-87E439B2C5D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

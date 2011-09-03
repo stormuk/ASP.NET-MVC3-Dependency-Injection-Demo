@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DIDemo.Core;
+
+namespace DIDemo.Data
+{
+    public class CRMService : IMessagingService
+    {
+        public void Send(string message)
+        {
+            // Send
+        }
+    }
+}
