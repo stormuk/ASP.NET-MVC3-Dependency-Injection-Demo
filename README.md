@@ -1,0 +1,1 @@
+Sample of how to use Dependency Injection with ASP.NET MVC 3
