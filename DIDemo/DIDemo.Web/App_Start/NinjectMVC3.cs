@@ -50,7 +50,7 @@ namespace DIDemo.Web.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IMessagingService>().To<EmailService>();
-            kernel.Bind<IMessagingService>().To<CRMService>();
+            //kernel.Bind<IMessagingService>().To<CRMService>();
         }        
     }
 }
