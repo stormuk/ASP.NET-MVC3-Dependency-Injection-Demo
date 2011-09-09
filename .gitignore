@@ -1,0 +1,5 @@
+*.suo
+DIDemo.Core/bin/
+DIDemo.Data/bin/
+obj/
+*.user
